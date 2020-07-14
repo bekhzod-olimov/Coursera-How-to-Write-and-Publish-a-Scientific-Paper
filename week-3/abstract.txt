@@ -1,0 +1,13 @@
+Recently, the introduction of Convolutional Neural Network (CNNs) have advanced the way of solving image segmentation tasks. 
+Biomedical image segmentation has considerably benefited from employing various CNN models. The most widely used network 
+in this field is U-Net and its different variations. Although U-Net has achieved the state-of-the-art performance, we consider that 
+it can be further improved. Therefore, in the present paper, we aim to modify its particular aspects to improve its performance 
+through developing a fast U-Net (FU-Net) relying on bottleneck convolution layers in the contraction and expansion paths of the 
+model. The amount of memory required by the proposed model is reduced by 23 times when compared with the original U-Net. 
+Moreover, the modifications allowed achieving better performance. In conducted experiments, we assessed the performance of 
+the proposed model on two biomedical image segmentation datasets, namely 2018 Data Science Bowl and ICIS 2018: Skin Lesion 
+Analysis Towards Melanoma Detection. FU-Net demonstrated the state-of-the-art results in biomedical image segmentation, requiring
+ the number of trainable parameters reduced by eight times compared with the original U-Net model. In addition, using bottleneck 
+layers decreased the number of computations, resulting in nearly 30% speed-up at the training, validation and test stages. 
+Furthermore, despite relying on fewer parameters FU-Net achieved a slight improvement of the performance in terms of pixel accuracy, 
+Jaccard index, and dice coefficient evaluation metrics.
